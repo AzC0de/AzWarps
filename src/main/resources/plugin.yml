@@ -1,0 +1,33 @@
+name: AzWarps
+version: 1.0
+main: us.azcode.azwarps.WarpShop
+author: AzC0de
+api-version: 1.19
+description: TEST
+dependencies:
+  - Vault
+commands:
+  setpwarp:
+    description: Set a warp
+    usage: /<command> <warp_name>
+  delpwarp:
+    description: Delete a warp
+    usage: /<command> <warp_name>
+  playerwarp:
+    description: Teleport to a warp
+    usage: /<command> <warp_name>
+  buywarp:
+    description: Buy a warp
+    usage: /<command> <warp_name>
+  listwarps:
+    description: List all warps
+    usage: /<command>
+  addwarpaccess:
+    description: Add access to a warp
+    usage: /<command> <warp_name> <player_name>
+  setwarpaccess:
+    description: Set warp access
+    usage: /<command> <warp_name> <access_type>
+  listpublicwarps:
+    description: List all public warp points.
+    usage: /listpublicwarps
